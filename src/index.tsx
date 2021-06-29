@@ -2,7 +2,7 @@ import React from 'react'
 import { TouchableWithoutFeedback } from 'react-native'
 import { WebView } from 'react-native-webview'
 
-import webplayer from './template'
+import webplayer from '../lib/template'
 import { LayoutProps } from './types'
 
 export const Vimeo: React.FC<LayoutProps> = ({
